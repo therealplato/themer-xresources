@@ -1,16 +1,17 @@
 {
-  "name": "themer-hyper",
+  "name": "themer-xresources",
   "version": "2.0.6",
-  "description": "A Hyper.app plugin generator for themer.",
+  "description": "An xresources config generator for themer.",
   "main": "lib/index.js",
   "engines": {
     "node": ">=6.11"
   },
   "repository": {
-    "url": "git+ssh://git@github.com/mjswensen/themer-hyper.git",
+    "url": "git+ssh://git@github.com/therealplato/themer-xresources.git",
     "type": "git"
   },
-  "author": "mjswensen",
+  "author": "therealplato",
+  "contributors": ["mjswensen", "therealplato"],
   "license": "MIT",
   "jest": {
     "rootDir": "src"
@@ -38,15 +39,17 @@
     "themer": "^2.1||^3"
   },
   "bugs": {
-    "url": "https://github.com/mjswensen/themer-hyper/issues"
+    "url": "https://github.com/therealplato/themer-xresources/issues"
   },
-  "homepage": "https://github.com/mjswensen/themer-hyper#readme",
+  "homepage": "https://github.com/therealplato/themer-xresources#readme",
   "directories": {
     "lib": "lib"
   },
   "keywords": [
     "themer",
-    "hyper",
+    "xresources",
+    "urxvt",
+    "rxvt",
     "theme"
   ]
 }
